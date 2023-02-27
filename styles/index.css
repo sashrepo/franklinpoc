@@ -1,0 +1,25 @@
+/* fonts */
+--heading-font-family: ui-serifed, "Times New Roman", Times, serif;
+--body-font-family: ui-sans, "Helvetica Neue", Arial, sans-serif;
+--fixed-font-family: "Roboto Mono", menlo, consolas, "Liberation Mono", monospace;
+
+/* colors */
+--text-color: #181a1c;
+--link-color: #0e7194;
+--link-hover-color: #0e7194;
+--background-color: #ffffff;
+--overlay-background-color: #eeeeee;
+--highlight-background-color: #cccccc;
+
+/* sizes */
+--heading-font-size-xxl: 34px;
+--heading-font-size-xl: 14.5px;
+--heading-font-size-l: 14.5px;
+--heading-font-size-m: 14.5px;
+--heading-font-size-s: 14.5px;
+--heading-font-size-xs: 14.5px;
+--body-font-size-xxl: 29px;
+--body-font-size-xl: 18px;
+--body-font-size-l: 16px;
+--body-font-size-m: 14.5px;
+--body-font-size-s: 13.5px;
