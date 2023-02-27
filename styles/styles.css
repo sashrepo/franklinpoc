@@ -12,9 +12,9 @@
 
  :root {
   /* colors */
-  --link-color: #328800;
+  --link-color: #035fe6;
   --link-hover-color: #136ff6;
-  --background-color: #328800;
+  --background-color: #fff;
   --overlay-background-color: #eee;
   --highlight-background-color: #ccc;
   --text-color: #000;
@@ -118,7 +118,7 @@ a.button:any-link, button {
   font-style: normal; 
   font-weight: 600;
   cursor: pointer;
-  color: var(--background-color);
+  color: #328800;
   background-color: var(--link-color);
   margin: 16px 0;
   white-space: nowrap;
