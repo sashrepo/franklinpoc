@@ -206,7 +206,7 @@ main img {
 
 @media (min-width: 600px) {
   main .section {
-    padding: 64px 32px;
+    padding: 0px 0px;
   }
 }
 
@@ -221,7 +221,7 @@ main img {
   }
 
   .section > div {
-    max-width: 1200px;
+    max-width: 100%;
     margin: auto;
   }
 }
@@ -234,4 +234,17 @@ main .section[data-section-status='initialized'] {
 
 main .section.highlight {
   background-color: var(--highlight-background-color);
+}
+
+main .linedivider{
+  background-color: transparent;
+  max-width: 75%;
+  margin: auto;
+  height: 1px;
+  background: black;
+}
+
+.overlay {
+  position: relative;
+  z-index: 2;
 }

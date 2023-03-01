@@ -3,34 +3,75 @@
 main .hero-container > div {
     max-width: unset;
 }
-  
+
 main .hero-container {
-    padding: 0;
+    background-color: black;
+    color: #181a1c;
+    background-position: center;
+    display: flex;
+    position: relative;
+    margin: 0 ;
 }
-  
+
 main .hero {
     position: relative;
     padding: 32px;
     min-height: 300px;
 }
 
-main .hero h1 {
+main .hero h1{
+    position: absolute;
+    right: 45%;
+    top: 5%;
+    display: grid;
+    z-index: 2000;
+    color: white;
+}
+/*main .hero h1 {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     color: white;
-}
+}*/
+
+/*main .hero picture{
+    background-image: url(//cmsasset.ancestrycdn.com/content/dam/onsite/us/2021/stories-of-resilience/us-632650-sor-bau-update-acom-lohp-desktab-fnl.png/jcr:content/renditions/cq5dam.web.1280.1280.png);
+    background-repeat: no-repeat;
+    background-color: #000;
+    min-height: 1px;
+    border-style: none;
+    border-width: 0;
+    border-color: transparent;
+    box-shadow: ;
+    max-width: none;
+    min-height: ;
+    position: relative;
+    left: inherit;
+    top: inherit;
+    right: inherit;
+    bottom: inherit;
+    z-index: ;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    padding-top: inherit;
+    padding-right: inherit;
+    padding-bottom: inherit;
+    padding-left: inherit;
+    background-color: #000;
+}*/
 
 
 main .hero picture {
-    position: absolute;
-    z-index: -1;
+    position: relative;
+    /*z-index: ;*/
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     object-fit: cover;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
 }
 
 main .hero img {

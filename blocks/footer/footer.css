@@ -1,6 +1,6 @@
 footer {
   padding: 2rem;
-  background-color: var(--overlay-background-color);
+  background-color: #ede9e5;
   font-size: var(--body-font-size-s);
 }
 
@@ -11,4 +11,33 @@ footer .footer {
 
 footer .footer p {
   margin: 0;
+}
+
+.columns.footer-columns{
+  max-width: 1200px;
+  width: 100%;
+  font: 13px ui-sans,Helvetica Neue,Arial,sans-serif;
+  color: black;
+  line-height: 13px;
+}
+
+.columns.footer-columns > div > div{
+  max-width: 1200px;
+  width: 100%;
+  font: 13px ui-sans,Helvetica Neue,Arial,sans-serif;
+  color: black;
+  align-items: start;
+}
+
+.columns.footer-columns > div > div > div > div{
+  max-width: 1200px;
+  width: 100%;
+  font: 10px ui-sans,Helvetica Neue,Arial,sans-serif;
+  color: black;
+  align-items: start;
+}
+
+.columns.footer-columns a:link, button{
+  all: unset;
+  color: black;
 }

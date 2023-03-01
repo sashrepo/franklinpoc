@@ -1,0 +1,8 @@
+main .blueblock{
+    padding: 15px;
+    background-color: #005c7d;
+    color: #fff;
+    --link-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+}

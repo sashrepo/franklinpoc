@@ -54,7 +54,7 @@ header nav p {
 }
 
 header nav a:any-link {
-  color: currentcolor;
+  color: #0e7194;
 }
 
 /* hamburger */
@@ -201,6 +201,7 @@ header nav .nav-sections ul > li > ul > li {
     position: relative;
     padding-right: 16px;
     cursor: pointer;
+    color: #0e7194;
   }
 
   header nav .nav-sections .nav-drop::after {
@@ -260,7 +261,7 @@ header nav .nav-sections ul > li > ul > li {
     width: 0;
     height: 0;
     border-left: 8px solid transparent;
-    border-right: 8px solid transparent;    
+    border-right: 8px solid transparent;
     border-bottom: 8px solid var(--highlight-background-color);
   }
 

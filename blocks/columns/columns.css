@@ -1,6 +1,9 @@
 .columns > div {
     display: flex;
     flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+
 }
 
 .columns img {
@@ -14,6 +17,43 @@
         flex-direction: unset;
     }
 
+    .columns.black-columns {
+        background-color: #2d3136;
+        color: #ffffff;
+    }
+
+    .columns.above-footer {
+        background-color: #f7f3f0;
+        color: black;
+        font: 14px ui-sans,Helvetica Neue,Arial,sans-serif;
+        margin: auto;
+        line-height: 14px;
+    }
+    .columns.above-footer > div{
+        line-height: 14px;
+
+    }
+
+    .columns.above-footer a:link, button{
+        all: unset;
+        color: black;
+    }
+
+    .columns.as-seen-on {
+        background-color: #f7f3f0;
+        font: 18px ui-sans,Helvetica Neue,Arial,sans-serif;
+        padding: 20px;
+    }
+    .columns.as-seen-on img {
+        width: 75%;
+    }
+
+    .columns.above-footer > div {
+        display: flex;
+        align-items: start;
+        flex-direction: unset;
+    }
+
     .columns > div > div {
         flex: 1;
         margin-left: 32px;
@@ -22,4 +62,9 @@
     .columns > div > div:first-of-type {
         margin-left: unset;
     }
+}
+
+.columns.black-columns {
+    background-color: #2d3136;
+    color: #ffffff;
 }
