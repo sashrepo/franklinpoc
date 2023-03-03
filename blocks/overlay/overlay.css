@@ -16,6 +16,7 @@ main .overlay {
     display: grid;
     z-index: 1000;
     color: white;
+    font: 14.5px ui-sans,Helvetica Neue,Arial,sans-serif;
 }
 /*main .overlay a{
     position: absolute;
